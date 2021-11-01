@@ -77,3 +77,41 @@ body {
   text-align: center;
   color: var(--desaturated-blue);
 }
+
+.card .card_body .card_body--plan {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 230px;
+  height: 60px;
+  margin-bottom: 16px;
+  padding: 10px 0;
+  background-color: var(--very-pale-blue);
+  border-radius: 8px;
+}
+
+.card .card_body .plan-details {
+  display: flex;
+  align-items: center;
+}
+
+.card .plan-details img {
+  width: 40px;
+  height: 40px;
+}
+
+.card .plan-details .plan-info {
+  margin-left: 20px;
+}
+
+.card .plan-info h4 {
+  margin-bottom: 4px;
+  font-size: 1.2rem;
+  font-weight: var(--font-weight-bold);
+}
+
+.card .plan-info p {
+  font-size: 1.2rem;
+  font-weight: var(--font-weight-medium);
+  color: var(--desaturated-blue);
+}
