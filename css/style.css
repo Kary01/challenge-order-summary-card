@@ -12,7 +12,7 @@
   --dark-blue: hsl(223, 47%, 23%);
 
   /* Tipography */
-  --font-size-paragraph: 16px;
+  --font-size-paragraph: 1.4rem;
   --font-weight-medium: 500;
   --font-weight-bold: 700;
   --font-weight-black: 900;
@@ -62,12 +62,18 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 200px;
+  height: auto;
   padding: 20px;
 }
 
 .card .card_body .card_body--title {
-  margin: 20px 0;
   font-size: 2rem;
   font-weight: var(--font-weight-black);
+}
+
+.card .card_body .card_body--copy {
+  margin: 12px;
+  font-size: var(--font-size-paragraph);
+  text-align: center;
+  color: var(--desaturated-blue);
 }
