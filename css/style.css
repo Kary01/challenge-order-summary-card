@@ -1,0 +1,35 @@
+:root {
+  /* Layout */
+  --mobile: 375px;
+  --desktop: 1440px;
+
+  /* Primary Colors */
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  /* Neutral Colors */
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+
+  /* Tipography */
+  --font-size-paragraph: 16px;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: 'Red Hat Display', sans-serif;
+}
