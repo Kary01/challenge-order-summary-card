@@ -30,12 +30,22 @@ html {
 
 body {
   display: grid;
-  place-content: center;
-  align-content: space-around;
+  place-items: center;
+  align-items: center;
   width: 100%;
   height: 100vh;
-  background-color: var(--pale-blue);
+  background-color: white;
   font-family: 'Red Hat Display', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  height: 80vh;
+  background-color: var(--pale-blue);
 }
 
 .card {
@@ -45,7 +55,7 @@ body {
   border-radius: 20px;
 }
 
-.card .card_hero {
+/*.card .card_hero {
   width: 100%;
   height: 150px;
 }
@@ -166,4 +176,4 @@ body {
   .card .card_hero {
     height: 200px;
   }
-}
+}*/
