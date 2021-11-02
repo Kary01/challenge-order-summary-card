@@ -24,12 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](.\images\screenshot.png)
+![screenshot](screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/order-summary-card-challenge-XWndef7JC)
+- Live Site URL: [GitHub Page URL here](https://kary01.github.io/challenge-order-summary-card/)
 
 
 ## My process
