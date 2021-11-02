@@ -112,6 +112,11 @@ body {
   font-weight: var(--font-weight-bold);
 }
 
+.card_body a:hover {
+  cursor: pointer;
+  color: var(--bright-blue);
+}
+
 .card .plan-details img {
   width: 40px;
   height: 40px;
@@ -153,11 +158,20 @@ body {
   box-shadow: 5px 5px 8px 1px rgb(175, 173, 203, 0.86);
 } 
 
+.card_body--payment .action-btn:hover {
+  cursor: pointer;
+}
+
 .card .card_body--payment a {
   font-size: 1.2rem;
   font-weight: var(--font-weight-bold);
   text-decoration: none;
   color: var(--desaturated-blue);
+}
+
+.card_body--payment a:hover {
+  cursor: pointer;
+  color: var(--dark-blue);
 }
 
 .attribution {
