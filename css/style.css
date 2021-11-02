@@ -53,6 +53,7 @@ body {
   height: 500px;
   background-color: white;
   border-radius: 20px;
+  box-shadow: 10px 10px 13px 1px rgba(187, 200, 238, 0.86);
 }
 
 .card .card_hero {
@@ -149,6 +150,7 @@ body {
   color: var(--very-pale-blue);
   border: none;
   border-radius: 8px;
+  box-shadow: 5px 5px 8px 1px rgb(175, 173, 203, 0.86);
 } 
 
 .card .card_body--payment a {
@@ -168,7 +170,7 @@ body {
   color: hsl(228, 45%, 44%); 
 }
 
-@media screen and (min-width: 370px) and (max-width: 1440px) {
+@media screen and (max-width: 1440px) {
   .card {
     width: 300px;
     height: 450px;
